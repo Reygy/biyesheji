@@ -36,7 +36,6 @@ export const constantRoutes = [
     component: () => import('@/views/login/index'),
     hidden: true
   },
-
   {
     path: '/404',
     component: () => import('@/views/404'),
@@ -51,7 +50,7 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: '主页', icon: 'dashboard' }
     }]
   },
 
@@ -59,6 +58,7 @@ export const constantRoutes = [
     path: '/example',
     component: Layout,
     redirect: '/example/table',
+    hidden: true,
     name: 'Example',
     meta: { title: 'Example', icon: 'el-icon-s-help' },
     children: [
@@ -85,7 +85,22 @@ export const constantRoutes = [
         path: 'index',
         name: 'Form',
         component: () => import('@/views/form/index'),
-        meta: { title: 'Form', icon: 'form' }
+        meta: { title: '模型训练', icon: 'form' }
+      }
+    ]
+  },
+
+  {
+    path: '/result',
+    hidden: true,
+    component: Layout,
+    // props: true, // 使用props接收参数
+    children: [
+      {
+        path: 'index',
+        name: 'result',
+        component: () => import('@/views/result/index'),
+        meta: { title: '结果', icon: 'el-icon-s-help' }
       }
     ]
   },
@@ -93,6 +108,7 @@ export const constantRoutes = [
   {
     path: '/nested',
     component: Layout,
+    hidden: true,
     redirect: '/nested/menu1',
     name: 'Nested',
     meta: {
@@ -155,7 +171,7 @@ export const constantRoutes = [
     children: [
       {
         path: 'https://panjiachen.github.io/vue-element-admin-site/#/',
-        meta: { title: 'External Link', icon: 'link' }
+        meta: { title: '外部链接', icon: 'link' }
       }
     ]
   },

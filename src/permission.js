@@ -13,6 +13,14 @@ const whiteList = ['/login'] // no redirect whitelist
 router.beforeEach(async(to, from, next) => {
   // start progress bar
   NProgress.start()
+  // //去除登录界面代码
+  // document.title = getPageTitle(to.meta.title)
+  // next()
+
+
+
+
+
 
   // set page title
   document.title = getPageTitle(to.meta.title)

@@ -1,0 +1,314 @@
+.invade {
+    min-width: 1200px;
+  }
+  .invade .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .invade .banner {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 548px;
+    margin: 0 auto;
+    padding-top: 72px;
+    color: #fff;
+    background-image: linear-gradient(0deg, #00254e 0%, #02112e 100%);
+  }
+  .invade .banner .banner-text {
+    color: #fff;
+  }
+  .invade .banner .banner-text div {
+    margin-bottom: 24px;
+    padding-top: 90px;
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .invade .banner .banner-text h2 {
+    margin-bottom: 20px;
+    padding-top: 0;
+    color: #fff;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+  }
+  .invade .banner .banner-text p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 8px;
+    opacity: 0.25;
+  }
+  .invade .banner .banner-text .banner-btn {
+    margin: 41px 0;
+    padding-top: 0;
+  }
+  .invade .banner .banner-outline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.06);
+  }
+  .invade .banner .detect-bg {
+    /* z-index: 1; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 900px;
+    height: 450px;
+  }
+  .invade .banner .detect-bgg {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 900px;
+    height: 450px;
+  }
+  .invade .banner .banner-outline .intrusion-business {
+    padding: 20px 0;
+  }
+  .invade .banner .banner-outline .intrusion-business li {
+    width: 200px;
+    padding-left: 24px;
+    border-right: 1px solid rgba(218, 222, 229, 0.1);
+  }
+  .invade .banner .banner-outline .intrusion-business li:first-child {
+    padding-left: 0;
+  }
+  .invade .banner .banner-outline .intrusion-business li div {
+    margin-bottom: 8px;
+    color: #00a4c5;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .invade .banner .banner-outline .intrusion-business li div span {
+    color: #00a4c5;
+    font-size: 24px;
+    opacity: 1;
+  }
+  .invade .banner .banner-outline .intrusion-business li span {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  .invade .banner .banner-outline .intrusion-business li:last-child {
+    border-right: none;
+  }
+  .invade .banner .banner-outline .intrusion-explain {
+    position: absolute;
+    top: -60px;
+    right: 100px;
+    z-index: 1;
+    width: 480px;
+    height: 160px;
+    padding: 16px 0 0 24px;
+    background: rgba(13, 170, 222, 0.8);
+  }
+  .invade .banner .banner-outline .intrusion-explain li {
+    height: 32px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .invade .banner .banner-outline .intrusion-explain li span {
+    float: left;
+    height: 32px;
+    color: #fff;
+    line-height: 32px;
+  }
+  .invade .banner .banner-outline .intrusion-explain li img {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+  }
+  .invade .banner .banner-outline .intrusion-explain li:last-child {
+    margin-bottom: 0;
+  }
+  .invade-highlight {
+    margin-top: 40px;
+  }
+  .invade .process {
+    height: 510px;
+    margin: 48px auto 120px auto;
+    /* background: url(https://download.qingteng.cn/frontendcdn/www/assets/images/3234f40ebfd857f2c4bf9d227cd6351b.png) center center #fff no-repeat; */
+    background-size: 1175px 100%;
+  }
+  .invade .process.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/2a8d33b102a9e5751a284184e3f63676.png);
+    aspect-ratio: 0.68933824;
+  }
+  .invade h2 {
+    color: #000;
+    font-size: 34px;
+    letter-spacing: 0.53px;
+    text-align: center;
+  }
+  .invade-module {
+    height: 2253px;
+    padding-top: 85px;
+    background: #f7f9fc;
+  }
+  .invade-module-table {
+    margin-top: 47px;
+  }
+  .invade-module-tr {
+    margin-bottom: 80px;
+  }
+  .invade-module-tr:last-child {
+    margin-bottom: 0;
+  }
+  .invade-module-left {
+    margin-left: 20px;
+  }
+  .invade-module-h5 {
+    width: 100%;
+    margin: 25px 0 10px 0;
+    color: #1a1b20;
+    font-size: 20px;
+    letter-spacing: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .invade-module-span {
+    display: inline-block;
+    width: 700px;
+    color: #515767;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    text-align: justify;
+  }
+  .invade-module-spann {
+    display: inline-block;
+    width: 500px;
+    color: #515767;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    /* text-align: justify; */
+  }
+  .invade-module-spannn {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    /* color: #515767; */
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    /* text-align: justify; */
+  }
+  .invade-module-img {
+    width: 100%;
+    height: 250px;
+    background-size: 100% 100%;
+  }
+  .el-form-item{
+    margin: 38px 0;
+  }
+  .el-form-item__label {
+    color: #fff !important; /* 使用 !important 确保覆盖默认样式 */
+  }
+  .invade-module-body .back-door {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/f018672cabdb90e5031c8b2f7009d240.png);
+  }
+  .invade-module-body .shell {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/2217995c5765aebd03c6ccac8fab9207.png);
+  }
+  .invade-module-body .local {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/c45d6e67433c9bfccba2715ea2681f59.png);
+  }
+  .invade-module-body .system-back {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/6b2ba69321b7595916d7d184b619d9d7.png);
+  }
+  .invade-module-body .honeypot {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/cf4afb365acec96592107922ac1d0258.png);
+  }
+  .invade-module-body .break {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/87806fe737a297f21b18a6e9d3bd2da8.png);
+  }
+  .invade-module-body .back-door.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/4778ee975d151d6a13846b03bba83c64.png);
+    aspect-ratio: 0.65559441;
+  }
+  .invade-module-body .shell.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/d28381f45ff9f8b6216126d85a4ed2e8.png);
+    aspect-ratio: 2.77777778;
+  }
+  .invade-module-body .local.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/17217b040b4642866486bea37012983e.png);
+    aspect-ratio: 1.15562404;
+  }
+  .invade-module-body .system-back.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/0683992e7a3968d775f818706bed9f05.png);
+    aspect-ratio: 2.62886598;
+  }
+  .invade-module-body .honeypot.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/0d216d6ec1deefd2d636d17d1a75d39b.png);
+    aspect-ratio: 1.28205128;
+  }
+  .invade-module-body .break.zzmmb {
+    background-image: url(https://download.qingteng.cn/frontendcdn/www/assets/images/4f06d0af5070da40b2713766b2a654b1.png);
+    aspect-ratio: 1.11940299;
+  }
+  .invade .invade-feature {
+    padding: 120px 0 0 0;
+  }
+  .invade .invade-feature .title {
+    font-size: 34px;
+    line-height: 54px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .invade .invade-feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 48px;
+    margin-bottom: 72px;
+  }
+  .invade .invade-feature-item {
+    display: flex;
+    justify-content: space-between;
+    width: 464px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    margin-left: 24px;
+  }
+  .invade .invade-feature-number {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    background: #3b579d;
+    border-radius: 50%;
+  }
+  .invade .invade-feature-text {
+    width: 400px;
+    margin-left: 24px;
+  }
+  .invade .invade-feature-text > h4 {
+    height: 40px;
+    color: #414652;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .invade .invade-feature-text > p {
+    margin-top: 4px;
+    color: #9ca1ad;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .invade .slideInUp {
+    animation-name: floats;
+    animation-duration: 0.5s;
+  }
+  .invade .slideInUp-small {
+    animation-name: bubble;
+    animation-duration: 0.5s;
+  }
+  

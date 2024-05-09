@@ -1,0 +1,46 @@
+/* 确保 .carousel-container 相对定位以便箭头可以绝对定位于它 */
+.carousel-container {
+    position: relative;
+    /* 其他必要的样式 */
+  }
+  
+  /* 默认情况下隐藏箭头，但允许鼠标悬停时显示 */
+  .arrow {
+    opacity: 0; /* 默认透明，隐藏箭头 */
+    visibility: hidden; /* 默认隐藏箭头 */
+    position: absolute; /* 绝对定位 */
+    height: 100%; /* 高度撑满整个容器 */
+    top: 0; /* 从顶部开始 */
+    border: none;
+    transition: opacity 0.3s, visibility 0.3s; /* 平滑的透明度和可见性过渡 */
+    cursor: pointer; /* 鼠标悬停时的指针样式 */
+    background-color: #cccccc; /* 浅灰色背景 */
+    z-index: 10; /* 确保箭头显示在其他内容之上 */
+    display: flex; /* 使用flex布局来垂直和水平居中箭头图标 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+  }
+  
+  /* 鼠标悬停在 .carousel-container 上时显示箭头 */
+  .carousel-container:hover .arrow {
+    opacity: 0.2; /* 鼠标悬停时半透明 */
+    visibility: visible; /* 显示箭头 */
+  }
+  
+  /* 左箭头的特定样式 */
+  .carousel-container .prev {
+    left: 0; /* 紧贴左边界 */
+    width: 50px; /* 箭头的宽度，根据需要调整 */
+    /* 使用深灰色箭头图标 */
+    color: #bbbbbb; /* 箭头颜色比背景深 */
+  }
+  
+  /* 右箭头的特定样式 */
+  .carousel-container .next {
+    right: 0; /* 紧贴右边界 */
+    width: 50px; /* 箭头的宽度，根据需要调整 */
+    /* 使用深灰色箭头图标 */
+    color: #bbbbbb; /* 箭头颜色比背景深 */
+  }
+  
+  
